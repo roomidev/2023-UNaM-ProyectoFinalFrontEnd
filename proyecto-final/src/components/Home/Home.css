@@ -1,0 +1,79 @@
+.home {
+    width: 100%;
+    height: 75vh;
+    color: #19497c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home img {
+    width: 80%;
+    margin: 20px;
+}
+
+.home img:hover {
+    transform: scale(1.2);
+}
+
+.home h1, .home h2 {
+    animation: anim 10s;
+}
+
+@keyframes anim {
+    from {color: #ffa600;}
+    to {color: #19497c;}
+}
+
+.redsoc {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redsoc .btn {
+    padding: 15px;
+    margin: 0 10px;
+}
+
+.wp, .fb, .ig {
+    font-size: 3.5rem;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ffffff;
+    cursor: pointer;
+    
+}
+
+.wp {
+    color: #28D146;
+}
+
+.ig {
+    color: #C13584;
+}
+
+.fb {
+    color: rgb(2, 2, 151);
+}
+
+.wp:hover {
+    color: #FFF;
+    background-color: #28D146;
+}
+
+.ig:hover {
+    color: #FFF;
+    background-color: #C13584;
+}
+
+.fb:hover {
+    color: #FFF;
+    background-color: rgb(2, 2, 151);
+}
+
+
+

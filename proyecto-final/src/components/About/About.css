@@ -1,0 +1,14 @@
+.nosotros {
+    height: 100%;
+    margin: 10px 40px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.nosotros h2,.nosotros span {
+    color: #246DBA;
+}
+
+.nosotros p {
+    text-align: justify;
+}

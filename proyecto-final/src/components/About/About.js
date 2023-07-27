@@ -6,7 +6,7 @@ function About() {
     return (
         <div>
             <Nav />
-            <div className="nosotros">
+            <section className="nosotros">
                 <h2>¡10 años siendo tu tienda de electrónicos de confianza!</h2>
                 <p>
                 En <span>Misiotrónica</span>, nos enorgullece ser tu destino confiable
@@ -52,7 +52,7 @@ function About() {
                 <p>
                 <span>Atentamente, el equipo de Misiotrónica.</span>
                 </p>
-            </div>
+            </section>
         </div>
     );
 }

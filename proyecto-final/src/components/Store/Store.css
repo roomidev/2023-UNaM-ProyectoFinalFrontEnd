@@ -15,23 +15,21 @@
     z-index: 50;
 }
 
-.search button {
-    color: #246DBA;
-    font-size: 1.4rem;
-    margin-left: 4px;
-    background-color: #ffffff00;
+.iconsearch {
+    background-color: #fff8b5;
+    color: #5a5a5a;
     border: none;
-    cursor: pointer;
-}
-
-.search button:hover {
-    color: #19497c;
+    font-size: 1.2rem;
+    height: 31px;
+    padding: 0 7px;
+    display: grid;
+    place-items: center;
 }
 
 .search input {
     font-size: 1.1rem;
     width: 300px;
     padding: 5px;
-    border-radius: 15px;
-    background-color: rgb(255, 248, 181);
+    border: none;
+    background-color: #fff8b5;
 }

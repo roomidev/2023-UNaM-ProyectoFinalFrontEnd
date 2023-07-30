@@ -19,7 +19,7 @@ function Card(props) {
             </div>
             <h3>{props.title}</h3>
             <p>{props.description}</p>
-            <h4>{props.precio}</h4>
+            <h4>{props.price}</h4>
             <div>
                 <button className="cantidad" onClick={restar}>-</button>
                 <span><b>{contador}</b></span>

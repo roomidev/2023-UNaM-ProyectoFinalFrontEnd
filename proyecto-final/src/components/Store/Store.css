@@ -33,3 +33,7 @@
     border: none;
     background-color: #fff8b5;
 }
+
+.search input:focus {
+    outline: none;
+}

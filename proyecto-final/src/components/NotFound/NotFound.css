@@ -13,7 +13,7 @@
     text-decoration: underline;
 }
 
-
+/* Responsive */
 @media screen and (max-width:600px) {
     .notfound img {
         width: 100%;

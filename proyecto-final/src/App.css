@@ -2,7 +2,8 @@
   text-align: center;
   background-image: url("./assets/fondo.png");
   background-repeat: repeat;
-  height: auto;
+  min-height: 100vh;
+  height: 100%;
 }
 
 

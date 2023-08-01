@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Card.css';
 
 function Card(props) {
+    //Funcion contador de articulos
     const [contador, setContador] = useState(0);
 
     const restar = () => {

@@ -48,6 +48,7 @@ li:hover {
     color: #19497c
 }
 
+/* Responsive */
 @media (max-width: 870px) {
     .logo-navbar img {
         width: 100%;

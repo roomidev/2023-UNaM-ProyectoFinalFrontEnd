@@ -8,6 +8,7 @@ import "./Store.css";
 function Store() {
   const articulo = articulos;
 
+  //Funcionalidad de la barra de busqueda
   const [filterData, SetFilterData] = useState(articulo);
 
   const handleFilter = (event) => {

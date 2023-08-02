@@ -37,16 +37,12 @@
 .redsoc .btn {
     padding: 15px;
     margin: 0 10px;
-}
-
-.wp, .fb, .ig {
     font-size: 3.5rem;
     width: 70px;
     border: none;
     border-radius: 50%;
     background-color: #ffffff;
     cursor: pointer;
-    
 }
 
 .wp {

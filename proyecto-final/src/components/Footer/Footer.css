@@ -1,0 +1,42 @@
+.footer {
+    width: 100%;
+    background-color: #e7f4ff;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.footer .redes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+.redes .btn {
+    padding: 5px;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: #e7f4ff;
+    cursor: pointer;
+}
+
+.wp:hover {
+    color: #FFF;
+    background-color: #28D146;
+}
+
+.ig:hover {
+    color: #FFF;
+    background-color: #C13584;
+}
+
+.fb:hover {
+    color: #FFF;
+    background-color: #020297;
+}
+
+.footer h6 {
+    margin: 0;
+}

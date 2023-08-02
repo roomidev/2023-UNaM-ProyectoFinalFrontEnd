@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import Nav from '../Nav/Nav';
+import Footer from '../Footer/Footer';
 
 function Contact() {
     return (
@@ -15,6 +16,7 @@ function Contact() {
                 <textarea rows="10" required></textarea>
                 <button type="submit" className="enviar">Enviar</button>
             </form>
+            <Footer />
         </div>
     )
 }

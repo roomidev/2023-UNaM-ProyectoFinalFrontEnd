@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Nav from "../Nav/Nav";
 import Card from "../Card/Card";
 import articulos from "../../assets/articulos";
+import Footer from '../Footer/Footer';
 import { FaSearch } from "react-icons/fa";
 import "./Store.css";
 
@@ -46,6 +47,7 @@ function Store() {
           );
         })}
       </section>
+      <Footer />
     </div>
   );
 }

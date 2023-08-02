@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import Nav from "../Nav/Nav";
+import Footer from '../Footer/Footer';
 
 function About() {
     return (
@@ -53,6 +54,7 @@ function About() {
                 <span>Atentamente, el equipo de Misiotrónica.</span>
                 </p>
             </section>
+            <Footer />
         </div>
     );
 }

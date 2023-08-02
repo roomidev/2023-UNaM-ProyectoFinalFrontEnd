@@ -14,9 +14,9 @@ function Home() {
                 <h2>Todo lo que estas buscando en un sólo lugar</h2>
             </div>
             <div className="redsoc">
-                <a href="https://www.whatsapp.com/" className="btn wp" target="_blank"><FaWhatsapp /></a>
-                <a href="https://www.instagram.com/" className="btn ig" target="_blank"><FaInstagram /></a>
-                <a href="https://www.facebook.com/" className="btn fb" target="_blank"><FaFacebookSquare /></a>
+                <a href="https://www.whatsapp.com/" className="btn wp" target="_blank" rel="noreferrer noopener"><FaWhatsapp /></a>
+                <a href="https://www.instagram.com/" className="btn ig" target="_blank" rel="noreferrer noopener"><FaInstagram /></a>
+                <a href="https://www.facebook.com/" className="btn fb" target="_blank" rel="noreferrer noopener"><FaFacebookSquare /></a>
             </div>
         </div>
     )

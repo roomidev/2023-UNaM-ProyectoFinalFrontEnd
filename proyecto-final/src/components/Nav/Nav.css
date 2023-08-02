@@ -62,19 +62,27 @@ li:hover {
         display: none;
         position: absolute;
         top: 39px;
-        left: 0;
-        width: 100%;
+        right: 0;
+        width: 220px;
+        height: 100vh;
         background-color: #e7f4ff;
-        border-bottom: 2px solid #246DBA ;
     }
 
     .menu li {
         margin-left: 0;
-        padding: 8px;
+        padding: 20px 15px;
         font-size: 1.5rem;
     }
 
     .menu.expanded ul {
         display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    .menu ul {
+        width: 100%;
+        height: auto;
+        border-bottom: 2px solid #246DBA ;
     }
 }

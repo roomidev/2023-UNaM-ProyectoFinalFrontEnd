@@ -42,6 +42,7 @@ function Store() {
                 title={art.title}
                 description={art.description}
                 price={art.price}
+                quantity={art.quantity}
               />
             </div>
           );

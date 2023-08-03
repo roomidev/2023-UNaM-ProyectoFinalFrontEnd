@@ -3,7 +3,7 @@ import './Card.css';
 
 function Card(props) {
     //Funcion contador de articulos
-    const [contador, setContador] = useState(0);
+    const [contador, setContador] = useState(props.quantity);
 
     const restar = () => {
         setContador(Math.max(contador - 1, 0))
@@ -20,7 +20,7 @@ function Card(props) {
             </div>
             <h3>{props.title}</h3>
             <p>{props.description}</p>
-            <h4>{props.price}</h4>
+            <h4>$ {props.price}</h4>
             <div>
                 <button className="cantidad" onClick={restar}>-</button>
                 <span><b>{contador}</b></span>
